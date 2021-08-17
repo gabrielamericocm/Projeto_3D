@@ -8,7 +8,7 @@ int main(void)
 	sculptor cavalo(3,11,7);
     
     
-    //Corpo
+        // Corpo
 	cavalo.setColor(0.71,0.36,0.2,1);
 	cavalo.putBox(0,3,3,9,2,6);
 	// Nariz
@@ -40,7 +40,7 @@ int main(void)
 	cavalo.putBox(0,1,1,3,4,5);
 	cavalo.putBox(2,3,1,3,4,5);
 	cavalo.putBox(2,3,1,3,1,2);
-	// Pé
+	// PÃ©
 	cavalo.setColor(0.62,0.31,0.084,1); 
 	cavalo.putVoxel(0,0,1);
 	cavalo.putVoxel(0,0,4);
@@ -55,6 +55,6 @@ int main(void)
 	cavalo.setColor(0,0,0,1);
 	cavalo.putVoxel(0,7,4);
 	cavalo.putVoxel(2,7,4);
-    cavalo.writeOFF((char*)"cavalo.off");
+        cavalo.writeOFF((char*)"cavalo.off");
     return 0;
 }
